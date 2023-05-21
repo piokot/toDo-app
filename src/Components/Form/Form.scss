@@ -1,0 +1,57 @@
+@import "../../Assets/variables.scss";
+
+.Form__container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+
+    &_form
+    {
+        display: flex;
+        flex-direction: row;
+
+        input
+        {
+            padding: 5px 5px;
+            background-color: $secondary-white;
+            border: none;
+            outline: none;
+            font-size: 1.5rem;
+        }
+
+        button
+        {
+            border: none;
+            outline: none;
+            background-color: $secondary-white;
+            color: $orange;
+            font-size: 2rem;
+            cursor: pointer;
+        }
+
+        button:hover
+        {
+            color: $orange-hover;
+        }
+
+        button:active
+        {
+            color: $orange-press;
+        }
+
+        select
+        {
+            margin-left: 10px;
+            border: none;
+            outline: none;
+            padding: 5px 5px;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }        
+    }
+ 
+}
